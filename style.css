@@ -1,0 +1,253 @@
+@font-face {
+	font-family: 'Pangram';
+	src: url('../fonts/Pangram-Regular.woff2') format('woff2'),
+		url('../fonts/Pangram-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2 {
+	font-family: 'Pangram';
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.pad {
+	padding: 15px 0;
+}
+.padtop_bot {
+	padding: 40px 0;
+}
+/* Header */
+
+.header_in {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo a {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 20px;
+	text-decoration: none;
+
+	color: #2430a0;
+}
+.logo_content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 40px;
+}
+
+.head_tech_login {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+}
+
+.categories_dropdown a {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration: none;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: #2430a0;
+}
+.head_tech_login a {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 16px;
+	line-height: 22px;
+	text-decoration: none;
+	/* border-right: 1px solid #abadb6; */
+	position: relative;
+	letter-spacing: 0.08em;
+
+	color: #2430a0;
+}
+.head_tech_login a::after {
+	content: '';
+	position: absolute;
+	background-image: url(/images/Line.png);
+	border: 1px solid #abadb6;
+	width: 23px;
+	transform: rotate(90deg);
+	top: 10px;
+}
+
+.login {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 14px;
+	line-height: 19px;
+	border: 1px solid #2430a0;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	background-color: white;
+	color: #2430a0;
+	padding: 9px 27px;
+	border-radius: 24px;
+}
+.sign {
+	background: #2430a0;
+	border-radius: 24px;
+	padding: 9px 27px;
+	color: white;
+	border: none;
+}
+
+/* Header End */
+
+/* section Start */
+
+.txt_with_img {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 142px;
+}
+.head h1 {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 61.04px;
+	line-height: 62px;
+	/* identical to box height, or 118% */
+
+	font-feature-settings: 'liga' off;
+
+	/* Blue */
+
+	color: #2430a0;
+}
+.pellentesque {
+	font-family: 'Nunito Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+
+	color: #2430a0;
+}
+.get_started {
+	background: #2430a0;
+	border-radius: 24px;
+	padding: 10px 20px;
+	color: white;
+	border: none;
+}
+.icon {
+	margin-left: 5px;
+}
+.txt_professionals {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 30px;
+}
+.images_sec {
+	position: relative;
+	top: 30px;
+}
+.orange_bg_with_dots img {
+	position: absolute;
+	bottom: -10px;
+	left: 51px;
+	z-index: -1;
+}
+.half_green {
+	position: relative;
+}
+.half_green::after {
+	content: '';
+	position: absolute;
+	background-image: url(/images/half_green.png);
+	width: 381px;
+	height: 464px;
+	background-repeat: no-repeat;
+	top: 496px;
+}
+.message_icon {
+	/* position: absolute;
+	right: -22px;
+	bottom: -82px; */
+	position: fixed;
+	right: 280px;
+}
+
+/* section curve arrow */
+
+.curve_arrow_with_content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 20px;
+}
+.helping_you_excel {
+	text-align: center;
+}
+
+/* section with cube img */
+.container-fluid {
+	padding: 0 25px;
+}
+.img_with_content {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.items {
+	text-align: center;
+}
+.heading h2 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+
+	font-feature-settings: 'liga' off;
+
+	color: #2430a0;
+}
+.heading p {
+	font-family: 'Nunito', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+
+	color: #3e3e3e;
+}
+.img_with_cube {
+	height: 70px;
+}
+.img_with_cube img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.items {
+	padding: 0px 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
